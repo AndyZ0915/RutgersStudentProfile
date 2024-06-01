@@ -1,18 +1,19 @@
-Overview of the Canvas API
-REST API:
+# Overview of the Canvas API
+# REST API:
 
-The Canvas API is primarily RESTful, using standard HTTP methods and JSON for request and response bodies.
-The base URL for the API is usually https://<canvas_instance>/api/v1/, where <canvas_instance> is your institution's Canvas domain.
-Authentication:
+# The Canvas API is primarily RESTful, using standard HTTP methods and JSON for request and response bodies.
+# The base URL for the API is usually https://<canvas_instance>/api/v1/, where <canvas_instance> is your institution's Canvas domain.
 
-Authentication is typically done via OAuth2 or API tokens.
-API tokens can be generated in the Canvas LMS under the user's account settings.
-Endpoints:
+# Authentication:
 
-Courses: Retrieve and manage course information.
-Assignments: Create, update, and delete assignments.
-Users: Manage user accounts and profiles.
-Enrollments: Handle enrollments in courses.
-Grades: Access and update grades.
-Modules: Manage course modules and their content.
-Files: Upload and manage files within courses.
+# Authentication is typically done via OAuth2 or API tokens.
+# API tokens can be generated in the Canvas LMS under the user's account settings.
+# Endpoints:
+
+# Courses: Retrieve and manage course information.
+# Assignments: Create, update, and delete assignments.
+# Users: Manage user accounts and profiles.
+# Enrollments: Handle enrollments in courses.
+# Grades: Access and update grades.
+# Modules: Manage course modules and their content.
+# Files: Upload and manage files within courses.
